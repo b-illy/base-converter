@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+    color: #e0e0e0;
+    font-weight: 300;
+}
+
+html, body, pre, h1, span, div {
+    background-color: #282828;
+    text-align: center;
+}
+
+span {
+    max-width: 50rem;
+    display: inline-block;
+    margin: 1rem auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem auto;
+}
+
+pre, input {
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+input {
+    width: 25rem;
+    color: #282828;
+    background-color: #e0e0e0;
+    border-style: none;
+    border-radius: 0.2rem;
+}
+
+.input-area {
+    margin: 1.4rem auto;
+    width: 30rem;
+    border-style: solid;
+    border-width: 0.4rem;
+    border-color: #0088dd;
+    border-radius: 0.2rem;
+}
+
+#warning {
+    display: none;
+    margin: 1rem auto;
+    color: #ff6600;
+}

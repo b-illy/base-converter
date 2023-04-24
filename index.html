@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Numerical Base Converter</title>
+        <link rel="icon" href="https://billylikes.men/thinking.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <h1>Numerical Base Converter</h1>
+
+        <span>
+            Type an integer in a box according to its base (e.g. a denary number in the first box).<br>
+            The other boxes will automatically update with their converted values.<br>
+        </span>
+
+        <div class="input-area">
+            <pre>  <input id="10" oninput="convert(10)">  </pre>
+            <pre>0x<input id="16" oninput="convert(16)">  </pre>
+            <pre>0b<input id="2"  oninput="convert(2)" >  </pre>
+        </div>
+
+        <span id="warning">
+            Couldn't convert. Make sure you are inputting a valid integer of the correct base. 
+        </span>
+    </body>
+</html>
